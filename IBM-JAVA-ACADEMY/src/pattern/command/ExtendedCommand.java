@@ -15,6 +15,7 @@ public class ExtendedCommand extends Command {
 	
 	public final static void main(String[] args) {
 		Command command = new ExtendedCommand(Duration.parse("pt1s"));
+		// System.out.print("Command must run at " + command.timeToRun());
 		command.run();
 	}
 
